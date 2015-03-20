@@ -22,6 +22,8 @@ body {
   padding-bottom: 0px;
   line-height: 80px;
   color: #0092ce;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2em;
 }
 
 @media (max-width: 767px) {
