@@ -56,13 +56,13 @@ img.brand {
 
 #stage {
   position: relative;
-  min-height: 300px;
   background-image: url('../images/deafindia_elysepatten_flickr.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 #stage .container {
-  min-height: 300px;
+  min-height: 500px;
   position: relative;
 }
 
@@ -72,11 +72,17 @@ img.brand {
   text-shadow: 4px 4px 8px black, -4px -4px 8px black, 4px -4px 8px black, -4px 4px 8px black;
 }
 
+@media (max-width: 767px) {
+  #stage h1 {
+    font-size: 3em;
+  }
+}
+
 #stage .photocredit {
   color: white;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10px;
 }
 
 #stage .photocredit a {
