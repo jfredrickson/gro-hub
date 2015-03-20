@@ -38,6 +38,10 @@ h2 {
   font-size: 1.2em;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: white;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav > li > a {
     line-height: 20px;
