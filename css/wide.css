@@ -1,0 +1,9 @@
+body {
+  padding-top: 80px; /* Padding top is navbar height */
+}
+
+.navbar-default .navbar-nav > li > a {
+  line-height: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

@@ -1,0 +1,7 @@
+body {
+  padding-top: 120px;  /* Padding top is brand + navbar height */
+}
+
+#stage h1 {
+  font-size: 4em;
+}
