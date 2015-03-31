@@ -62,6 +62,10 @@ img.brand {
   position: relative;
 }
 
+#stage .intro {
+  width: 60%;
+}
+
 #stage h1 {
   font-size: 3em;
   color: white;
@@ -120,4 +124,17 @@ img.social-media-icon {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+}
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 1.4em;
+  font-family: serif;
+  font-style: italic;
+  color: #666;
+}
+
+.quote-source {
+  text-align: right;
 }

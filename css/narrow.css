@@ -5,3 +5,7 @@ body {
 #stage h1 {
   font-size: 4em;
 }
+
+#stage p {
+  font-size: 2em;
+}
